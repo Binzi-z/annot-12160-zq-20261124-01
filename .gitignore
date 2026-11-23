@@ -14,3 +14,9 @@ recordings/
 *.jsonl
 *.mp4
 *.webm
+
+# Local runtime data (per-tenant SQLite databases and WAL sidecars).
+data/
+*.db
+*.db-wal
+*.db-shm
